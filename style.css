@@ -276,18 +276,7 @@ body {
 }
 
 .item-number {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    background: rgba(0, 0, 0, 0.7);
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.8rem;
-    font-weight: bold;
+    display: none;
 }
 
 .item-icon {
@@ -302,9 +291,14 @@ body {
 }
 
 .item-quality {
-    font-size: 0.8rem;
+    display: none;
+}
+
+.item-price {
+    font-size: 1rem;
     color: #ffd700;
-    margin-bottom: 3px;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
 .item-status {
